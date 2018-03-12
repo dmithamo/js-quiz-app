@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    background-color: aliceblue;
+    width: 80%;
+    margin: 0 auto;
+    padding: 4%;
+}
+
+header{
+    font-weight: bolder;
+}
+
+header>ol>li{
+   padding: 1%; 
+}
+
+ul{
+    padding: 2%;    
+    width: 60%;
+    margin-left: 10px;
+    list-style: none;
+}
+
+ul>li{
+    padding: 2%;
+    /* border: 1px dotted grey; */
+    margin: 15px;
+    box-shadow: 0 0 5px black;
+    background-color: white;
+}
+
+.a-question{
+    font-weight: bold;
+    font-size: 1.5em;
+}
