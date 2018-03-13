@@ -47,8 +47,8 @@ function writeInstructions(){
 
 function makeQuestions(){
     questionList.forEach(question => {
-        sectionOneQuestions.innerHTML += '<li class="a-question">'+ question.question + '</li>' + 
-        '<ul class="the-choices"></ul>';
+        sectionOneQuestions.innerHTML += '<div class="full-question"><li class="a-question">'+ question.question + '</li>' + 
+        '<form action="." class="the-choices"></form></div>';
     });
 };
 
@@ -57,10 +57,11 @@ var choicesHTML = document.getElementsByClassName("the-choices");
 function appendChoices(){
     for(var i=0; i < choicesHTML.length; i++){
         for (var j=0; j < questionList[i].choices.length; j++){
-            choicesHTML[i].innerHTML += '<li>' + questionList[i].choices[j] +'</li> ';
+            choicesHTML[i].innerHTML += '<div class="choices"><input name="choices" type="radio">' + questionList[i].choices[j] + '</div>';
         }
     }
 };
+
 
 window.onload = function(){
     writeInstructions();

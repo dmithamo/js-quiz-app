@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -25,23 +25,34 @@ header>ol>li{
     padding: 1%; 
 }
 
-ul{
-    color: black;
-    padding: 2%;   
-    width: 60%;
-    margin-left: 10px;
-    list-style: none;
+form{
+    margin-top: 20px;
 }
 
-ul>li{
-    padding: 2%;
-    /* border: 1px dotted grey; */
-    margin: 15px;
-    box-shadow: 0 0 5px black;
-    background-color: white;
+.full-question{
+    margin-bottom: 20px;
 }
+
 
 .a-question{
+    margin-bottom: 20px;    
     font-weight: bold;
     font-size: 1.5em;
+}
+
+.choices{
+    width: 70%;
+    box-shadow: 0 0 5px black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.choices:hover, .choices:checked{
+    background-color: greenyellow;
+}
+
+.section-one input {
+    position: relative;
+    margin-right: 10px;
+    cursor: pointer;
 }
