@@ -1,25 +1,33 @@
 body{
+    font-size: 12px;
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
+    background-color:#fff;
+    color: black;
+    line-height: 20px;
 }
 
 .container{
-    background-color: aliceblue;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
-    padding: 4%;
 }
 
-header{
+header, section{
+    box-shadow: 0 0 10px 2px black;
     font-weight: bolder;
+    padding: 4%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 
 header>ol>li{
-   padding: 1%; 
+    padding: 1%; 
 }
 
 ul{
-    padding: 2%;    
+    color: black;
+    padding: 2%;   
     width: 60%;
     margin-left: 10px;
     list-style: none;

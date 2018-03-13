@@ -1,22 +1,23 @@
+"use strict";
+
 var instructions = [
-"Each question in section one has one right answer. Pick that right answer. \
-[if you want to be right, that is. Else pick the answer that suits your objective(s)]",
+"Each question in section one has one right answer. Pick that right answer. " +
+"[if you want to be right, that is. Else pick the answer that suits your objective(s)]",
 
-"Section two may have multiple correct answers, or one correct answer. The correct answer \
-may be none of the choices given. So, yea. Ye are warned. Again, pick the correct answer(s),\
-if there be any.",
+"Section two may have multiple correct answers, or one correct answer. The correct answer " +
+"may be none of the choices given. So, yea, ye are warned. Again, pick the correct answer(s)," +
+"if there be any.",
 
-"In section three, you are required to type in your answer in the space provided. So do that. \
-You can type in caps or in lowercase. Do what makes you happy.",
+"In section three, you are required to type in your answer in the space provided. So do that. " +
+"You can type in caps or in lowercase. Do what makes you happy.",
 
-"Each question may contain instructions that appear to contradict these instructions. \
-Be advised, if that be the case, the instructions in the question rank higher.",
+"Each question may contain instructions that appear to contradict these instructions. " +
+"Be advised, if that be the case, the instructions in the question rank higher." +
+"Follow the higher ranking instructions, and it shall be well with you. " ,
 
-"Follow the higher ranking instructions, and it shall be well with you. \
-At the bottom of the quiz, there exists several very clearly labelled buttons.",
-
-"Clicking a button will cause what the button's label says will happen to happen. \
-Click at your own risk.",
+"At the bottom of the quiz, there exists several very clearly labelled buttons." +
+"Clicking a button will cause what the button's label says will happen to happen. " +
+"Click at your own risk.",
 
 ];
 
