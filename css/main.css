@@ -2,8 +2,8 @@ body{
     font-size: 12px;
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
-    background-color:#fff;
-    color: black;
+    background-color:rgb(5, 14, 37);
+    color: rgb(219, 216, 216);
     line-height: 20px;
 }
 
@@ -41,18 +41,19 @@ form{
 }
 
 .choices{
+    box-shadow: 0 0 5px 1px black;
     width: 70%;
-    box-shadow: 0 0 5px black;
     margin: 10px;
     padding: 10px;
-}
-
-.choices:hover, .choices:checked{
-    background-color: greenyellow;
 }
 
 .section-one input {
     position: relative;
     margin-right: 10px;
     cursor: pointer;
+    opacity: 0;
 }
+.section-one:hover input{
+    background-color: greenyellow;
+}
+
